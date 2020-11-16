@@ -1,0 +1,104 @@
+{
+	"version": "2.0",
+	"name": "LAS",
+	"description": "",
+	"points": 353634995,
+	"projection": "",
+	"hierarchy": {
+		"firstChunkSize": 6204, 
+		"stepSize": 4, 
+		"depth": 9
+	},
+	"offset": [314499.99023717904, 5808499.9900543494, -20.009874279782302],
+	"scale": [0.01, 0.01, 0.01],
+	"spacing": 70.312654845816724,
+	"boundingBox": {
+		"min": [314499.99023717904, 5808499.9900543494, -20.009874279782302], 
+		"max": [323500.01005744358, 5817500.009874614, 8980.0099459847588]
+	},
+	"encoding": "DEFAULT",
+	"attributes": [
+		{
+			"name": "position",
+			"description": "",
+			"size": 12,
+			"numElements": 3,
+			"elementSize": 4,
+			"type": "int32",
+			"min": [314499.99596372957, 5808499.9959925339, -20.003950871638391],
+			"max": [323500.00305400457, 5817500.0035747522, 302.02469177609936]
+		},{
+			"name": "intensity",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "return number",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [1]
+		},{
+			"name": "number of returns",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [1]
+		},{
+			"name": "classification",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "scan angle rank",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "user data",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "point source id",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "rgb",
+			"description": "",
+			"size": 6,
+			"numElements": 3,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0, 0, 0],
+			"max": [65280, 65280, 65280]
+		}
+	]
+}
